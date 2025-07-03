@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --color-primary: #0C8C85;
+    --color-secondary: #ff9900;
+    --font-familypopin: "Poppins", sans-serif;
+}
+.btn-outline-secondary{
+    border: 1px solid #ffffff !important;
+    color: #ffffff !important;
+    font-family: var(--font-familypopin) !important;
+    font-weight: 700 !important;
+}
+.btn-outline-secondary:hover{
+    border: 1px solid var(--color-primary) !important;
+    background: white !important;
+    color: var(--color-primary) !important;
+    font-family: var(--font-familypopin) !important;
+}
+.headerbackroud{
+    background:  var(--color-primary);
+    font-family: var(--font-familypopin) !important;
+}
+.auth-logo{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: var(--font-familypopin) !important;
+}
+.surplus-login-sect{
+    background: linear-gradient(180deg, rgba(239, 76, 40, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url(../img/Home/background-imagefruits.avif) !important; 
+    background-size: cover;
+    /* height: 100vh; */
+}
+.surpluslogin-left h2{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: var(--font-familypopin) !important;
+}
+@media (max-width: 567px) {
+    .surpluslogin-left h2{
+        font-size: 30px;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: var(--font-familypopin) !important;
+    }
+}
+@media (max-width: 400px) {
+    .surpluslogin-left h2{
+        font-size: 25px;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: var(--font-familypopin) !important;
+    }
+}
+
+.surpluslogin-left p{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: var(--font-familypopin) !important;
+    line-height: 1.5;
+}
+.surpluslogin-right{
+    font-family: var(--font-familypopin) !important;
+}
+.surpluslogin-page{
+    background-color: rgba(12, 140, 133, 0.6) ;
+}
+.surplus-login-input{
+    background-color: rgb(250, 255, 250) !important;
+    color: #000000;
+    box-shadow: 0 0 0 100px rgb(250, 255, 250) inset;
+    font-family: var(--font-familypopin);
+    font-weight: 600;
+    border: 2px solid transparent !important;
+    border-radius: 10px;
+}
+.surplus-login-input:focus{
+    border: 2px solid var(--color-secondary) !important;
+}
+.surplus-login-btn{
+    background-color: var(--color-secondary) !important;
+    color: #ffffff !important;
+    font-size:18px !important;
+    font-weight: 500 !important;
+    font-family: var(--font-familypopin) !important;
+    line-height: 20px;
+    border: 2px solid transparent !important;
+    border-radius: 10px !important;
+}
+.surplus-login-btn:hover{
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: 2px solid var(--color-secondary) !important;
+}
+.surplus-login-btn2{
+    background-color: var(--color-primary) !important;
+    color: #ffffff !important;
+    font-size:16px !important;
+    font-weight: 500 !important;
+    font-family: var(--font-familypopin) !important;
+    line-height: 20px;
+    border: 2px solid transparent !important;
+    border-radius: 10px !important;
+}
+.surplus-login-btn2:hover{
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: 2px solid var(--color-primary) !important;
+}
+.surplus-divider-main span{
+  font-family: var(--font-familypopin) !important;
+}
+.login-form-footer{
+    font-size: 14px;
+    font-family: var(--font-familypopin);
+    color: #ffffff;
+    white-space: nowrap;
+}
+@media (max-width: 400px) {
+    .login-form-footer{
+        font-size: 10px;
+        font-family: var(--font-familypopin);
+        color: #ffffff;
+        white-space: nowrap;
+    }
+}
+.surplus-social-icons a{
+    font-size: 36px; color: white;
+}
+.surplus-social-icons a:hover{
+    color: var(--color-primary);
+}
+
+
+
+/*######## Sign up page styling #######*/
+
+.signup-form_heading{
+
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: var(--font-familypopin);
+}
+.chose-an-account{
+    font-family: var(--font-familypopin);
+    background-color: var(--color-primary);
+}
+.chose-an-account2 h2{
+  font-size: 26px !important;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: var(--font-familypopin);
+
+}
+
+.surplus-chose-btn2{
+    background-color: var(--color-primary) !important;
+    color: #ffffff !important;
+    font-size:16px !important;
+    font-weight: 500 !important;
+    font-family: var(--font-familypopin) !important;
+    line-height: 20px;
+    border: 2px solid transparent !important;
+    border-radius: 10px !important;
+}
+.surplus-chose-btn2:hover{
+    background-color: transparent !important;
+    color: var(--color-primary) !important;
+    border: 2px solid var(--color-primary) !important;
+}
+.acount-card p{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    font-family: var(--font-familypopin);
+    line-height: 1.5;
+}
+.acount-card h3{
+   font-size: 20px;
+   font-weight: 600;
+   font-family: var(--font-familypopin);
+   color: var(--color-secondary);
+}
+
+.registerd-emailhere{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-familypopin);
+    color: #000000;
+}
+@media (max-width: 350px) {
+    .registerd-emailhere{
+        font-size: 12px;
+        font-weight: 500;
+        font-family: var(--font-familypopin);
+        color: #000000;
+    }
+}

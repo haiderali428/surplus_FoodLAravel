@@ -1,0 +1,232 @@
+ /*##### css for tab setting here #########*/
+.setting-nav {
+    background-color: rgba(245, 245, 245, 1) !important;
+    border: 1px solid rgba(255, 210, 27, 0.2);
+    border-radius: 10px;
+}
+
+.setting-navtab {
+    color: rgba(75, 75, 75, 1);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.dashboard-heading-2 {
+    color: rgba(16, 16, 16, 1) !important;
+    font-size: 22px !important;
+    font-weight: 600;
+}
+
+.setting-navtab.active {
+    background: rgba(255, 210, 27, 1);
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.food-username p {
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(16, 16, 16, 1);
+}
+
+.food-username span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(75, 75, 75, 1);
+}
+
+.profile-verify a {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 210, 27, 1);
+    color: rgba(255, 210, 27, 1);
+    font-size: 22px;
+    background: transparent;
+    font-weight: 700;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.profile-verify a:hover {
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 22px;
+    font-weight: 700;
+    white-space: nowrap;
+    background: rgba(255, 210, 27, 1);
+    text-decoration: none;
+}
+
+@media (max-width: 1070px) and (min-width: 768px) {
+
+    .food-username p {
+        font-size: 22px;
+        font-weight: 700;
+        color: rgba(16, 16, 16, 1);
+    }
+
+    .food-username span {
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(75, 75, 75, 1);
+    }
+
+    .profile-verify a {
+        border-radius: 10px;
+        border: 1px solid rgba(255, 210, 27, 1);
+        color: rgba(255, 210, 27, 1);
+        font-size: 16px;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+}
+
+.form-select:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: inherit;
+}
+
+.form-control2 {
+    border-bottom: 1px solid transparent !important;
+    background-color: transparent !important;
+}
+
+.form-control2::placeholder {
+    color: rgba(85, 85, 85, 1);
+}
+
+.food-toggle-password {
+    right: 20px;
+    top: 8px;
+    border: 0;
+    background: none;
+    color: rgb(255, 210, 27);
+}
+
+.food-profile-submit {
+    background: rgba(255, 210, 27, 1);
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.food-profile-submit:hover {
+    background: transparent;
+    color: rgba(255, 210, 27, 1);
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid rgba(255, 210, 27, 1);
+    border-radius: 10px;
+}
+
+/*###### css for Notification Here #########*/
+.notification-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.notification-item.active {
+    background-color: #ffe600;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.notification-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+
+    color: rgba(75, 75, 75, 1);
+    font-weight: 500;
+}
+
+.notification-item i {
+    color: rgba(37, 162, 73, 1);
+}
+
+.border-noti.active {
+
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.border-noti {
+    height: 30px;
+    width: 1px;
+    background: rgba(75, 75, 75, 1);
+}
+
+.notification-heading {
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+@media (max-width: 576px) {
+    .notification-item {
+        font-size: 14px;
+    }
+}
+
+.notification-sub-heading {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(75, 75, 75, 1);
+}
+
+.notification-main-heading {
+    font-size: 46px;
+    color: rgba(16, 16, 16, 1);
+}
+
+/*##### css for tables ####*/
+
+.table-dropdown-toggle::after {
+    display: none;
+}
+
+.table-dropdown-toggle i {
+    font-size: 16px;
+    color: rgba(84, 84, 84, 1);
+}
+
+.table-dropdown-menu {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    top: 25px !important;
+    overflow: hidden;
+}
+
+.table-dropdown-item {
+    color: rgba(84, 84, 84, 1);
+}
+
+.table-dropdown-item:hover {
+    background-color: rgba(255, 210, 27, 1);
+    color: rgba(0, 0, 0, 0.8);
+}
+.document-dropdown{
+    top: 5px;
+    right: 10px;
+}
+.pan-card{
+    border-radius: 10px;
+}
+.pan-card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pan-card-title{
+    color: rgba(16, 16, 16, 1);
+    font-size: 22px;
+    font-weight: 600;
+}
+.pan-card-subtitle{
+    font-size: 14px;
+    font-weight: 600;
+}
