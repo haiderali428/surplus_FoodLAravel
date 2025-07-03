@@ -1,0 +1,92 @@
+.banner-FSSAI {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.accordion-button {
+  background-color: rgba(245, 245, 245, 1) !important;
+  border-radius: 10px;
+
+ 
+  color: rgba(75, 75, 75, 1) !important;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+ 
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.accordion-body {
+  background-color: rgba(245, 245, 245, 1) !important;
+
+  color: rgba(75, 75, 75, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+.accordion-button:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.accordion-item {
+  border: none !important;
+  margin-bottom: 20px;
+}
+
+.accordean-contant h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(16, 16, 16, 1);
+}
+ 
+.text_Renewing_Your_FSSAI_Registration {
+  font-size: 23px;
+  font-weight: 800;
+  border-radius: 20px;
+  text-align: justify;
+  padding: 10px;
+  background-color: #f5f5f5;
+  color: rgba(16, 16, 16, 1);
+ 
+}
+.accordion-button:focus{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+ 
+}
+
+@media (max-width: 320px) {
+  .text_Renewing_Your_FSSAI_Registration {
+    font-size: 16px;
+  }
+}
+
+.textFrequently_Asked_Questions {
+  font-size: 23px;
+  font-weight: 800;
+  border-radius: 20px;
+  text-align: justify;
+  padding: 10px;
+
+  color: rgba(16, 16, 16, 1);
+}
+
+@media (max-width: 320px) {
+  .textFrequently_Asked_Questions {
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 768px) {
+  .FAQS-content h1 {
+    font-size: 24px;
+  }
+  .FAQS-content p {
+    font-size: 16px;
+    text-align: justify;
+  }
+}

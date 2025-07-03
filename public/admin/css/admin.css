@@ -1,0 +1,202 @@
+.adminbtn{
+    border: 2px solid rgba(255, 210, 27, 1);
+    color:rgba(255, 210, 27, 1);
+    font-weight: 600;
+    background-color: transparent;
+    padding-inline:25px !important;
+}
+ 
+ 
+.adminbtn:hover{
+    background-color: rgba(255, 210, 27, 1);
+    color: rgba(0, 0, 0, 0.8);
+   border: 2px solid transparent;
+}
+ 
+ 
+
+#chartjs-line {
+  
+    border-radius: 8px; /* Optional for rounded corners */
+    padding-inline: 10px;
+
+  
+}
+
+.linchartgrapgh{
+
+
+    border-radius: 10px;
+    border: 1px solid rgb(251, 243, 210);
+    background-color: rgba(245, 245, 245, 1); 
+
+    position: relative;
+}
+
+.input-group select{
+    background-color: transparent;
+    color: rgba(75, 75, 75, 1);
+    font-weight: 600;
+    border: 1px solid rgba(255, 210, 27, 0.2);
+    border-radius: 5px;
+
+}
+
+.askjsdsaj{
+    position: relative;
+    top: 15px;
+    z-index: 10000;
+}
+.list-img{
+    width: 40px;
+    height: 40px;
+}
+.user-list-inactive-status{
+    color: rgb(238, 58, 58);
+    border: 1px solid rgb(240, 103, 103);
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    padding-inline: 5px;
+    padding-block: 3px;
+    
+}
+.user-list-active-status{
+    color: rgb(50, 152, 50);
+    border: 1px solid rgb(156, 204, 156);
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    padding-inline: 5px;
+    padding-block: 3px;
+}
+.pendinglicense-uploard-button{
+    color: rgb(50, 152, 50);
+    border: 1px solid rgb(156, 204, 156);
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    padding-inline: 5px;
+    padding-block: 3px;
+}
+.search-user-list{
+    background-color: #f5f5f5;
+    border: none;
+    
+}
+.file-item {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.remove-btn:hover {
+    background-color: darkred;
+}
+.admin-table-button{
+    border-radius: 6px;
+    border: 2px solid  transparent;
+    color:rgba(75, 75, 75, 1);
+    font-weight: 600;
+    padding: 5px 30px;
+    font-size: 14px;
+    background-color: var(--primary-color);
+   
+   }
+.admin-table-button:hover{
+    border-radius: 6px;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 5px 30px;
+    font-size: 14px;
+    background-color: transparent;
+   
+   }
+   .sub-service{
+    background-color: #f5f5f5;
+    border: 1px solid rgb(246, 241, 223);
+    border-radius: 10px;
+   }
+   
+   .select{
+    background-color: #FAFAFA;
+    border: 1px solid rgb(246, 241, 223);
+    border-radius: 6px;
+   }
+   .popup-content{
+    background-color: #fafafa;
+    border: 1px solid rgb(246, 241, 223)
+   }
+   .popup-input{
+    border-radius: 8px !important;
+    padding: 11px !important;
+    border-bottom: 1px solid var(--primary-color) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    background-color: #f5f5f5 !important;
+    appearance: none;
+    background-clip: padding-box;
+    color: #495057;
+    display: block;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: border-color .15s
+     ease-in-out, box-shadow .15s
+      ease-in-out;
+    width: 100%;
+   }
+ 
+   .upload-file{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+   }
+   .dropdown-item-view{
+    background-color: transparent;
+    border: 0;
+    border-radius: var(--bs-dropdown-item-border-radius, 0);
+    clear: both;
+    color: var(--bs-dropdown-link-color);
+    display: block;
+    font-weight: 400;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    text-align: inherit;
+    white-space: nowrap;
+    width: 100%;
+   }
+   .login-content{
+    font-size: 15px;
+    font-weight: 600;
+    color: #4B4B4B;
+    text-align: center;
+   }
+   .forgot{
+    color: #FFD21B;
+    font-size: 14px;
+    font-weight: 500;
+    
+   }
+   .border-hr{
+    color: #DDE1E6;
+   }
+   .no-account{
+    color: #4B4B4B;
+    font-size: 16px;
+    font-weight: 600;
+   }
+ 
